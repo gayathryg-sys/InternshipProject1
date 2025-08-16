@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(230, 230, 250, 0.34);
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    background-color: mistyrose;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: palevioletred;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+
+nav a {
+    color: saddlebrown;
+    text-decoration: none;
+    margin: 10px;
+}
+
+h1 {
+    color: darkslategray;
+}
+
+ul {
+    color: white;
+}

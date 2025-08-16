@@ -1,0 +1,28 @@
+<!-- <p>district works!</p> -->
+<!-- <div class="container">
+    <div class="col">
+      <app-card title="Idukki" description="" imglink="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3XaUhuDxH-GXuGzJMH67drzH3FXngtVusEMktl0e6J8hTN0prNhT8rqROM7wGMqmKkew&usqp=CAU"> </app-card>  
+    </div>
+    <div class="col">
+        <app-card title="Wayanad" description="" imglink="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL7aJ4Fx5WH2Kph-ixUMoVbVEXb-QbvWvQ3mkZMosLmt5U8_v7vHMCweyrM_OiBAEQmm0&usqp=CAU"> </app-card>
+    </div>
+    <div class="col">
+        <app-card title="Ernakulam" description="" imglink="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTokicPDRJxXbQzI3yXZ5JcBXTLOwFoPy3kJOnl0HA7W-rjYiHPEyYWKyvxPeCZveuf5Ok&usqp=CAU"> </app-card>
+    </div>
+</div> -->
+<!-- <app-card title="Idukki" description="dghdhgftfgh" imglink="https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?cs=srgb&dl=pexels-pixabay-56866.jpg&fm=jpg"> </app-card> -->
+
+<div class="container">
+    <div class="row">
+    @for (item of district; track item.id) {
+    <div class="col">
+    <app-card [title]=item.title [description]=item.description [imglink]=item.image></app-card>
+    </div>
+}
+    </div>
+</div>
+
+
+
+    
+

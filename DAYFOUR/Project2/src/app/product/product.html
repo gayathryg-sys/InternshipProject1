@@ -1,0 +1,10 @@
+
+<div class="container">
+    <div class="row">
+        @for (item of items; track item.id) {
+        <div class="col">
+            <app-card [card]=item> </app-card>
+        </div>
+        }
+    </div>
+</div>

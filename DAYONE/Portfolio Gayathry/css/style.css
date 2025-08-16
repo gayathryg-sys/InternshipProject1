@@ -1,0 +1,36 @@
+body {
+
+    background-image: url("https://media.istockphoto.com/id/1160134500/photo/sun-and-cloud-background-with-a-pastel-colored.jpg?s=612x612&w=0&k=20&c=EMADXdnIhuxwkNimk2XTvecR3jKhaZO747YM9suaZXQ="); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    font-size: 20px;
+
+}
+
+
+nav {
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: mistyrose;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+}

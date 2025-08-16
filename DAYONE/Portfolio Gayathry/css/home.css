@@ -1,0 +1,29 @@
+.profile {
+  width: 200px;
+  margin-top: 30px; 
+}
+
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    background-color: mistyrose;
+}
+
+nav a {
+    color: saddlebrown;
+    text-decoration: none;
+    margin: 10px;
+}
+
+h1 {
+    color: rgba(128, 0, 0, 0.805);
+}
+
+p {
+    color: darkslategray;
+}
